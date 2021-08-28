@@ -1,0 +1,7 @@
+{
+  "name": "MODUL_02",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
