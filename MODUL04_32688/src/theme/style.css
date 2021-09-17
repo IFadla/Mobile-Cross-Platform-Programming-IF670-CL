@@ -1,0 +1,61 @@
+*::after *::before, * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	max-width: 500px;
+	margin: 2rem auto;
+	padding: 0 .5rem;
+}
+
+.wrapper h2 {
+	text-align: center;
+}
+
+.h-2 {
+	height: 2rem;
+}
+
+.h-1 {
+	height: 1rem;
+}
+
+.h-05 {
+	height: .5rem;
+}
+
+ion-card {
+	padding: 1rem;
+}
+
+.bio {
+	/* border: 1px solid magenta; */
+	font-size: 1rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.bio__list {
+	/* border: 1px solid blue; */
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+	padding: .5rem 0;
+}
+
+.bio__head {
+	/* border: 1px solid black; */
+	display: flex;
+	align-items: center;
+}
+
+.bio__head p:nth-child(1) {
+	/* border: 1px solid red; */
+	width: 80px;
+}
+
+p {
+	margin: 0;
+}
