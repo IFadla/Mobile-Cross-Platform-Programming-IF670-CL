@@ -1,0 +1,9 @@
+.image-preview {
+	border: 1px solid gray;
+	margin: 2rem;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
